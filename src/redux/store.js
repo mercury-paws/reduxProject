@@ -1,7 +1,7 @@
 import { createStore, combineReducers } from "redux";
 import { configureStore } from "@reduxjs/toolkit";
 // import { balanceReducer } from "./balanceSlice";
-import { localeReducer } from "./localeSlice";
+import localeReducer from "./localeSlice";
 import balanceReducer from "./balanceSlice";
 export const store = configureStore({
   reducer: {
